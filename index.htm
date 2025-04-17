@@ -1,1 +1,101 @@
-<h1>Hello world</h1>
+<!DOCTYPE html>
+<html lang="PT-pt">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="descripton" content="texto que aparece no google" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
+		<link rel="manifest" href="/site.webmanifest" />
+		<title>Nome da página</title>
+		<!-- 
+        favicons
+        style.css
+        fonts
+        goole analytics 
+        -->
+	</head>
+	<body>
+		<nav>
+			<a href="./contactos.html">Contactos</a>
+		</nav>
+		<!-- HEADINGS-->
+		<h1>Um por cada página</h1>
+		<h2>Titulo de casa section</h2>
+		<h3>subtitulo</h3>
+		<h4></h4>
+		<h5></h5>
+		<h6></h6>
+
+		<!-- PARAGRAPHS -->
+		<p>Este é um <span>texto cor diferente</span> na página</p>
+		<p>outro paragrafo com texto rm <i>italico</i></p>
+		<p>outro paragrafo com texto rm <em>italico</em></p>
+		<p>outro paragrafo com texto rm <b>bold</b></p>
+		<p>outro paragrafo com texto rm <strong>bold</strong></p>
+
+		<!-- Self closing tags -->
+
+		<br />
+		<hr />
+
+		<!-- Anchors -->
+		<a href="www.google.com" target="_blank" aria-label="visitar o google">Ir para a página numa nova tab</a> <br />
+		<a href="www.google.com">Ir para a página na mesma página</a> <br />
+		<a href="mailto:texte@mail.com">ir para o mail</a>
+		<a href="tel:+351912345678">912345678</a> <br />
+		<a href="#id da secção"> ir para uma secção da página</a>
+
+		aria-label="visitar o google" é para a acessibilidade
+
+		<!-- LISTS -->
+
+		<ul>
+			<li>1</li>
+			<li>2</li>
+		</ul>
+		<ol>
+			<li>1</li>
+			<li>2</li>
+		</ol>
+
+		<ul>
+			<li>
+				<ul>
+					<li>text 1</li>
+					<li>text 2</li>
+					<li>
+						<ol>
+							<li>text 3</li>
+							<li>text 4</li>
+						</ol>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		<ul>
+			<li>Texto 5</li>
+		</ul>
+
+		<!-- img videos -->
+
+		<img src="./assets/img/img.jpg" alt="descrição da imagem" width="300" />
+
+		<picture>
+			<source srcset="./assets/img/img.jpg" type="image.webp" width="100" />
+			<source srcset="./assets/img/img2.jpg" type="image.webp" width="100" />
+			<img src="./assets/img/img.jpg" alt="descrição da imagem" />
+		</picture>
+		<video src="./assets/videos/video.mp4" controls autoplay loop muted></video>
+		<audio src="./assets/audio/audio.mp3" controls autoplay loop muted></audio>
+		<iframe src="" frameborder="0"></iframe>
+
+		<!-- Tags de agrupamento -->
+		<div></div>
+		<header></header>
+		<section></section>
+		<article></article>
+		<footer></footer>
+	</body>
+</html>
